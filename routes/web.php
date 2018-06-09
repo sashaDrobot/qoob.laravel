@@ -13,6 +13,15 @@ Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
     Route::get('/orders', 'AdminController@orders');
     Route::get('/processed', 'AdminController@processed');
     Route::get('/process/{order}', 'AdminController@process');
-    Route::get('/delete/{order}', 'AdminController@delete');
+    Route::delete('/delete/{order}', 'AdminController@delete');
 });
+
+// ---- Main ---- //
+Route::get('/main', 'MainController@index');
+Route::get('/about', 'MainController@about');
+Route::get('/portfolio', 'MainController@portfolio');
+Route::get('/services', 'MainController@services');
+Route::get('/contacts', 'MainController@contacts');
+Route::get('/feedback', 'MainController@feedback');
+Route::post('/feedback/send', 'MainController@send');
 

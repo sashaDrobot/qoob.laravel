@@ -8,7 +8,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-sm-12">
-                            @if( empty($orders->toArray()) )
+                            @if( $orders->isEmpty() )
                             <p>Список заказов пуст</p>
                             @else
                             <table class="table">
@@ -31,7 +31,13 @@
                                     @if(request()->is('admin/orders'))
                                     <td><a href="/admin/process/{{ $order->id }}" class="btn btn-primary">Обработан</a></td>
                                     @endif
-                                    <td><a href="/admin/delete/{{ $order->id }}" class="delete btn btn-danger">Удалить</a></td>
+                                    <td>
+                                        <form action="/admin/delete/{{ $order->id }}" method="POST">
+                                            @csrf
+                                            @method('DELETE')
+                                            <input type="submit" class="delete btn btn-danger" value="Удалить">
+                                        </form>
+                                    </td>
                                 </tr>
                                 @endforeach
                             </table>

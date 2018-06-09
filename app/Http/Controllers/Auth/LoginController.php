@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+//use App\Http\Controllers\Auth\RegisterController;
 
 class LoginController extends Controller
 {
@@ -36,6 +37,9 @@ class LoginController extends Controller
      */
     public function __construct()
     {
+       // $reg = new RegisterController();
+        //$reg->create(['name' => 'Admin', 'email' => 'alex.drobot22@gmail.com', 'password' => 'admin1111']);
+
         $this->middleware('guest')->except('logout');
     }
 

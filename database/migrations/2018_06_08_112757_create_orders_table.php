@@ -20,7 +20,7 @@ class CreateOrdersTable extends Migration
             $table->string('email', 100);
             $table->text('text');
             $table->date('date');
-            $table->boolean('processed');
+            $table->boolean('processed')->default('0');
             $table->timestamps();
         });
     }

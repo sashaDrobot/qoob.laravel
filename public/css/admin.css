@@ -366,16 +366,16 @@ footer.sticky-footer {
 
 .btn {
     background: #fff;
-    color: #6f42c1;
-    border: 2px solid #6f2dd4;
+    color: #007bff;
+    border: 2px solid #007bff;
     font-weight: bold;
     text-transform: uppercase;
     transition: all .7s;
 }
 
 .btn:hover, .btn:active, .btn:focus {
-    background: #6f42c1;
-    border: 2px solid #6f2dd4;
+    background: #007bff;
+    border: 2px solid #007bff;
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
@@ -390,4 +390,5 @@ footer.sticky-footer {
     border: 2px solid #bd2130;
     background: #bd2130;
     color: #fff;
+    cursor: pointer;
 }

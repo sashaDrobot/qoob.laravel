@@ -24,6 +24,7 @@ class AdminController extends Controller
     {
         $this->title = 'Заказы';
         $orders = Order::where('processed', 0)->paginate(8);
+		
         return view('admin.list', ['title' => $this->title, 'orders' => $orders]);
     }
 
@@ -35,14 +36,14 @@ class AdminController extends Controller
     }
 
     public function process($id) {
-        $order = Order::find($id);
+        $order = Order::findOrFail($id);
         $order->processed = '1';
         $order->save();
         return back();
     }
 
     public function delete($id) {
-        $order = Order::find($id);
+        $order = Order::findOrFail($id);
         $order->delete();
         return back();
     }
