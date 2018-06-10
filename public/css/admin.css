@@ -372,6 +372,16 @@ footer.sticky-footer {
     color: #868e96;
 }
 
+a {
+    text-decoration: none !important;
+    color: #1b1e21;
+    transition: all .5s;
+}
+
+a:hover {
+    color: #007bff;
+}
+
 .caption {
     margin-top: 7%;
     color: #6f2dd4;
@@ -411,4 +421,45 @@ footer.sticky-footer {
     background: #bd2130;
     color: #fff;
     cursor: pointer;
+}
+
+.cards-orders {
+    display: none;
+}
+
+.cards-orders .card {
+    margin-bottom: 10px;
+}
+
+.cards-orders .btn-mob {
+    background: none;
+    cursor: pointer;
+    color: #1b1e21;
+    text-decoration: none;
+    border: none;
+    margin-right: 15px;
+    transition: all .5s;
+}
+
+.cards-orders .btn-mob:hover {
+    color: #007bff;
+}
+
+.cards-orders .delete-mob:hover {
+    color: #bd2130;
+}
+
+.cards-orders .card .card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+@media (max-width: 780px) {
+    .table-orders {
+        display: none;
+    }
+    .cards-orders {
+        display: block;
+    }
 }

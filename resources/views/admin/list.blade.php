@@ -11,7 +11,7 @@
                             @if( $orders->isEmpty() )
                             <p>{{ __('admin.empty') }}</p>
                             @else
-                            <table class="table">
+                            <table class="table table-orders">
                                 <tr>
                                     <th>{{ __('admin.customer') }}</th>
                                     <th>{{ __('admin.contacts') }}</th>
@@ -24,8 +24,8 @@
                                 @foreach($orders as $order)
                                 <tr>
                                     <td>{{ $order->name }}</td>
-                                    <td>{{ $order->phone }}</td>
-                                    <td>{{ $order->email }}</td>
+                                    <td><a href="tel:{{ $order->phone }}">{{ $order->phone }}</a></td>
+                                    <td><a href="mailto:{{ $order->email }}">{{ $order->email }}</a></td>
                                     <td>{{ $order->text }}</td>
                                     <td>{{ $order->date }}</td>
                                     @if(request()->is('admin/orders'))
@@ -41,6 +41,32 @@
                                 </tr>
                                 @endforeach
                             </table>
+
+                            <div class="cards-orders">
+                                @foreach($orders as $order)
+                                    <div class="card">
+                                        <div class="card-header">
+                                            @if(request()->is('admin/orders'))
+                                                <a href="/admin/process/{{ $order->id }}" class="btn-mob">{{ __('admin.process') }}</a>
+                                            @endif
+                                            <form action="/admin/delete/{{ $order->id }}" method="POST">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit" class="btn-mob delete-mob">
+                                                    <i class="far fa-trash-alt"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>{{ __('admin.customer') }}: {{ $order->name }}</p>
+                                            <p>{{ __('admin.contacts') }}: <a href="tel:{{ $order->phone }}">{{ $order->phone }}</a></p>
+                                            <p>{{ __('admin.email') }}: <a href="mailto:{{ $order->email }}">{{ $order->email }}</a></p>
+                                            <p>{{ __('admin.message') }}: {{ $order->text }}</p>
+                                            <p>{{ __('admin.date') }}: {{ $order->date }}</p>
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
                                 {{ $orders->links() }}
                             @endif
                         </div>
