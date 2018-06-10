@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Cache;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -7,8 +9,7 @@ Route::get('/', function () {
 // ----- Admin ----- //
 Auth::routes();
 Route::get('logout', 'Auth\LoginController@logout')->name('logout');;
-
-Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
+Route::group([ 'prefix' => 'admin' ], function () {
     Route::get('/', 'AdminController@index')->name('admin');
     Route::get('/orders', 'AdminController@orders');
     Route::get('/processed', 'AdminController@processed');
@@ -24,4 +25,8 @@ Route::get('/services', 'MainController@services');
 Route::get('/contacts', 'MainController@contacts');
 Route::get('/feedback', 'MainController@feedback');
 Route::post('/feedback/send', 'MainController@send');
+
+// ---- Local ---- //
+Route::get('/setlocale/{locale}', 'LocalizationController@setLocale');
+
 

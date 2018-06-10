@@ -9,7 +9,9 @@
                     <div class="row">
                         <div class="col-sm-12">
 
-                        in the development...
+                            in the development...
+
+                            {{ app()->getLocale() }}
 
                         </div>
                     </div>

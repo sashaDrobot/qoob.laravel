@@ -65,9 +65,9 @@
         <div><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
     </div>
     <div class="languages flex-column d-flex align-items-center justify-content-center">
-        <div><a href="#"><h5>EN</h5></a></div>
+        <div><a href="/setlocale/en"><h5>EN</h5></a></div>
         <span class="h-line"></span>
-        <div><a href="#"><h5>RU</h5></a></div>
+        <div><a href="/setlocale/ru"><h5>RU</h5></a></div>
     </div>
 
 </header>

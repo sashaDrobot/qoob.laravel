@@ -352,6 +352,26 @@ footer.sticky-footer {
     body.sidenav-toggled footer.sticky-footer {
         width: calc(100% - 55px); } }
 
+.lang-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.lang-list a {
+    display: inline !important;
+    background: none;
+    border: none;
+    transition: all .5s;
+    text-align: center;
+}
+
+.lang-list a:hover, .lang-list a:active, .lang-list a:focus {
+    display: inline !important;
+    background: none;
+    border: none;
+    color: #868e96;
+}
+
 .caption {
     margin-top: 7%;
     color: #6f2dd4;

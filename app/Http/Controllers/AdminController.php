@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Order;
+use Illuminate\Support\Facades\Lang;
 
 class AdminController extends Controller
 {
@@ -11,8 +12,8 @@ class AdminController extends Controller
 
     public function __construct()
     {
-        $this->title = 'Администратор';
         $this->middleware('auth');
+        $this->title = Lang::get('admin.admin');
     }
 
     public function index ()
@@ -22,7 +23,7 @@ class AdminController extends Controller
 
     public function orders ()
     {
-        $this->title = 'Заказы';
+        $this->title = Lang::get('admin.orders');
         $orders = Order::where('processed', 0)->paginate(8);
 		
         return view('admin.list', ['title' => $this->title, 'orders' => $orders]);
@@ -30,7 +31,7 @@ class AdminController extends Controller
 
     public function processed ()
     {
-        $this->title = 'Обработанные заказы';
+        $this->title = Lang::get('admin.processed');
         $orders = Order::where('processed', '1')->paginate(8);
         return view('admin.list', ['title' => $this->title, 'orders' => $orders]);
     }

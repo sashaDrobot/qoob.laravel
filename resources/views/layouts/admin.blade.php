@@ -28,7 +28,7 @@
 </head>
 <body class="fixed-nav sticky-footer bg-dark">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-        <a class="navbar-brand" href="/admin/orders">Панель Администратора</a>
+        <a class="navbar-brand" href="/admin/orders">{{ __('admin.panel') }}</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,31 +37,37 @@
                 <li class="nav-item">
                     <a class="nav-link" id="" href="/admin">
                         <i class="fas fa-user-circle" aria-hidden="true"></i>
-                        <span class="nav-link-text">Администратор</span>
+                        <span class="nav-link-text">{{ __('admin.admin') }}</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="orders" href="/admin/orders">
                         <i class="fas fa-list-ul"></i>
-                        <span class="nav-link-text">Список заказов</span>
+                        <span class="nav-link-text">{{ __('admin.orders') }}</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/admin/processed">
                         <i class="fas fa-check"></i>
-                        <span class="nav-link-text">Обработанные</span>
+                        <span class="nav-link-text">{{ __('admin.processed') }}</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/">
                         <i class="fas fa-home" aria-hidden="true"></i>
-                        <span class="nav-link-text">На главную</span>
+                        <span class="nav-link-text">{{ __('admin.main') }}</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                        <i class="fas fa-sign-out-alt"></i><span class="nav-link-text">Выход</span>
+                        <i class="fas fa-sign-out-alt"></i><span class="nav-link-text"> {{ __('admin.logout') }}</span>
                     </a>
+                </li>
+                <li>
+                    <div class="lang-list list-group">
+                        <a class="list-group-item list-group-item-action" href="/setlocale/en">EN</a>
+                        <a class="list-group-item list-group-item-action" href="/setlocale/ru">RU</a>
+                    </div>
                 </li>
             </ul>
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">

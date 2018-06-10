@@ -9,15 +9,15 @@
                     <div class="row">
                         <div class="col-sm-12">
                             @if( $orders->isEmpty() )
-                            <p>Список заказов пуст</p>
+                            <p>{{ __('admin.empty') }}</p>
                             @else
                             <table class="table">
                                 <tr>
-                                    <th>Заказчик</th>
-                                    <th>Контакты</th>
-                                    <th>Email</th>
-                                    <th>Сообщение</th>
-                                    <th>Дата</th>
+                                    <th>{{ __('admin.customer') }}</th>
+                                    <th>{{ __('admin.contacts') }}</th>
+                                    <th>{{ __('admin.email') }}</th>
+                                    <th>{{ __('admin.message') }}</th>
+                                    <th>{{ __('admin.date') }}</th>
                                     <th></th>
                                     <th></th>
                                 </tr>
@@ -29,13 +29,13 @@
                                     <td>{{ $order->text }}</td>
                                     <td>{{ $order->date }}</td>
                                     @if(request()->is('admin/orders'))
-                                    <td><a href="/admin/process/{{ $order->id }}" class="btn btn-primary">Обработан</a></td>
+                                    <td><a href="/admin/process/{{ $order->id }}" class="btn btn-primary">{{ __('admin.process') }}</a></td>
                                     @endif
                                     <td>
                                         <form action="/admin/delete/{{ $order->id }}" method="POST">
                                             @csrf
                                             @method('DELETE')
-                                            <input type="submit" class="delete btn btn-danger" value="Удалить">
+                                            <input type="submit" class="delete btn btn-danger" value="{{ __('admin.delete') }}">
                                         </form>
                                     </td>
                                 </tr>
