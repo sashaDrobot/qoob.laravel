@@ -2,7 +2,7 @@
 
 @section('content')
     <section class='landing container-fluid'>
-        <video id="bg-video" class="hidden-video" autoplay='true' loop='true' muted='true' poster='' src="/src/video/Ink_in_Water_Background__720p__(MosCatalogue.net).mp4" type="video/mp4"></video>
+        <video id="bg-video" class="hidden-video" autoplay='true' loop='true' muted='true' poster='' type="video/mp4"></video>
         <div class="container-fluid video-cont">
             <div class="row main">
                 <div class="col-lg-2">
@@ -24,6 +24,18 @@
             </div>
         </div>
     </section>
+
+    <div class="container-fluid header-mob">
+        <div class="row">
+            <div class="col-lg-10 d-flex justify-content-center flex-column align-items-center">
+                <h1>QOOB</h1>
+                <h2>web</h2>
+                <h2>production</h2>
+                <h2>studio</h2>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid services-container">
         <div class="container">
             <div class="row">

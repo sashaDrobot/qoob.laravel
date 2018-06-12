@@ -9,6 +9,10 @@ return [
     'main' => 'Main',
     'logout' => 'Logout',
 
+    'total' => 'Total orders:',
+    'expect' => 'Await processing:',
+    'reviewed' => 'Processed orders:',
+
     'empty' => 'The order list is empty',
     'customer' => 'Customer',
     'contacts' => 'Contacts',

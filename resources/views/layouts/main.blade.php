@@ -17,6 +17,7 @@
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/popper.js') }}"></script>
     <script src="{{ asset('js/bootstrap.js') }}"></script>
+    <script src="{{ asset('js/form.js') }}"></script>
 
     <!-- Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
@@ -47,6 +48,10 @@
                     <div class="col-lg-6 col-sm-12 col-xs-12">
                         <a href="/contacts">Contacts</a>
                     </div>
+                    <section class="lang-list list-group">
+                        <a class="list-group-item list-group-item-action" href="/setlocale/en">EN</a>
+                        <a class="list-group-item list-group-item-action" href="/setlocale/ru">RU</a>
+                    </section>
                 </div>
 
             </div>
@@ -69,7 +74,6 @@
         <span class="h-line"></span>
         <div><a href="/setlocale/ru"><h5>RU</h5></a></div>
     </div>
-
 </header>
 
 @yield('content')

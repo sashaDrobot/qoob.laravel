@@ -1,10 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Cache;
-
-Route::get('/', function () {
-    return view('welcome');
-});
 
 // ----- Admin ----- //
 Auth::routes();
@@ -18,7 +13,7 @@ Route::group([ 'prefix' => 'admin' ], function () {
 });
 
 // ---- Main ---- //
-Route::get('/main', 'MainController@index');
+Route::get('/', 'MainController@index');
 Route::get('/about', 'MainController@about');
 Route::get('/portfolio', 'MainController@portfolio');
 Route::get('/services', 'MainController@services');

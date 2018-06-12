@@ -8,11 +8,9 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-sm-12">
-
-                            in the development...
-
-                            {{ app()->getLocale() }}
-
+                            <p>{{ __('admin.total') }} {{ $orders->count() }}</p>
+                            <p>{{ __('admin.expect') }} {{ $orders->where('processed', '0')->count() }}</p>
+                            <p>{{ __('admin.reviewed') }} {{ $orders->where('processed', '1')->count() }}</p>
                         </div>
                     </div>
                 </div>

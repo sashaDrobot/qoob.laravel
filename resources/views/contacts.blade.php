@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3 class="container-header">contacts</h3>
+                    <h3 class="container-header"></h3>
                 </div>
             </div>
             <div class="row contacts-main-row">

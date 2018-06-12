@@ -18,13 +18,14 @@ class AdminController extends Controller
 
     public function index ()
     {
-        return view('admin.index', ['title' => $this->title ]);
+        $orders = Order::all();
+        return view('admin.index', ['title' => $this->title, 'orders' => $orders]);
     }
 
     public function orders ()
     {
         $this->title = Lang::get('admin.orders');
-        $orders = Order::where('processed', 0)->paginate(8);
+        $orders = Order::where('processed', 0)->orderBy('created_at', 'desc')->paginate(8);
 		
         return view('admin.list', ['title' => $this->title, 'orders' => $orders]);
     }
@@ -32,7 +33,7 @@ class AdminController extends Controller
     public function processed ()
     {
         $this->title = Lang::get('admin.processed');
-        $orders = Order::where('processed', '1')->paginate(8);
+        $orders = Order::where('processed', '1')->orderBy('created_at', 'desc')->paginate(8);
         return view('admin.list', ['title' => $this->title, 'orders' => $orders]);
     }
 
