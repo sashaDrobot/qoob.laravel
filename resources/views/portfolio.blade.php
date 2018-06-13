@@ -10,7 +10,7 @@
             </div>
         </div>
     </div>
-    <div class="container portfolio-main-container">
+    <div class="container portfolio-main-container no-bg">
         <div class="row portfolio-main-container-header text-center">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
         </div>

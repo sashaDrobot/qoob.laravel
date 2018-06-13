@@ -765,8 +765,10 @@ body .landing .text {
 
 
 /**********  PORTFOLIO PAGE ********************/
+.no-bg {
+    background: none !important;
+}
 .header-container{
-
     min-height: 440px;
     color: white;
 }
