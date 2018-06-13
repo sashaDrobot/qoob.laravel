@@ -24,7 +24,7 @@
                                     @csrf
                                     <div class="form-group">
                                         <label for="name">{{ __('users.name') }}:</label>
-                                        <input class="form-control" type="text" name="name" id="name">
+                                        <input class="form-control" type="text" name="name" id="name" autocomplete="new-user">
                                     </div>
                                     <div class="form-group">
                                         <label for="email">Email:</label>
@@ -32,7 +32,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="password">{{ __('login.password') }}:</label>
-                                        <input class="form-control" type="password" name="password" id="password">
+                                        <input class="form-control" type="password" name="password" id="password" autocomplete="new-password">
                                     </div>
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-default"><i class="fas fa-plus"></i>  {{ __('users.add') }}</button>
