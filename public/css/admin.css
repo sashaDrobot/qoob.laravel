@@ -352,6 +352,9 @@ footer.sticky-footer {
     body.sidenav-toggled footer.sticky-footer {
         width: calc(100% - 55px); } }
 
+button {
+    cursor: pointer;
+}
 .lang-list {
     display: flex;
     flex-direction: row;
@@ -361,12 +364,11 @@ footer.sticky-footer {
     display: inline !important;
     background: none;
     border: none;
-    transition: all .5s;
+    transition: color .5s linear;
     text-align: center;
 }
 
 .lang-list a:hover, .lang-list a:active, .lang-list a:focus {
-    display: inline !important;
     background: none;
     border: none;
     color: #868e96;
@@ -375,7 +377,7 @@ footer.sticky-footer {
 a {
     text-decoration: none !important;
     color: #1b1e21;
-    transition: all .5s;
+    transition: color .5s linear;
 }
 
 a:hover {
@@ -400,7 +402,7 @@ a:hover {
     border: 2px solid #007bff;
     font-weight: bold;
     text-transform: uppercase;
-    transition: all .7s;
+    transition: background-color .5s linear, color .5s linear !important;
 }
 
 .btn:hover, .btn:active, .btn:focus {
@@ -423,43 +425,73 @@ a:hover {
     cursor: pointer;
 }
 
-.cards-orders {
+.cards-list {
     display: none;
 }
 
-.cards-orders .card {
+.cards-list .card {
     margin-bottom: 10px;
 }
 
-.cards-orders .btn-mob {
+.cards-list .btn-mob {
     background: none;
     cursor: pointer;
     color: #1b1e21;
     text-decoration: none;
     border: none;
     margin-right: 15px;
-    transition: all .5s;
+    transition: background-color .5s linear, color .5s linear;
 }
-
-.cards-orders .btn-mob:hover {
+.cards-list .btn-mob:hover {
     color: #007bff;
 }
-
-.cards-orders .delete-mob:hover {
+.cards-list .delete-mob:hover {
     color: #bd2130;
 }
-
-.cards-orders .card .card-header {
+.cards-list .card .card-header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
-
+.user-add .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.user-add .form-group input {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+.navbar-right {
+    margin-left: auto;
+    color: #868e96;
+}
+.card-admin {
+    margin-top: 10px;
+}
+.users-list {
+    margin-top: 20px;
+}
+.navbar-toggler {
+    border: none !important;
+}
 @media (max-width: 780px) {
-    .table-orders {
+    .table-list {
         display: none;
     }
-    .cards-orders {
+    .cards-list {
         display: block;
+    }
+}
+
+@media (max-width: 1134px) {
+    .user-add .form-group {
+        display: block;
+    }
+    .user-add .form-group input {
+        width: 100%;
+    }
+    .user-add button {
+        margin: 10px 0 10px 0;
     }
 }

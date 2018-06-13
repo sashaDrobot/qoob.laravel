@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\User;
 use App\Order;
 use Illuminate\Support\Facades\Lang;
 
@@ -19,7 +19,8 @@ class AdminController extends Controller
     public function index ()
     {
         $orders = Order::all();
-        return view('admin.index', ['title' => $this->title, 'orders' => $orders]);
+        $users = User::all();
+        return view('admin.index', ['title' => $this->title, 'orders' => $orders, 'users' => $users]);
     }
 
     public function orders ()

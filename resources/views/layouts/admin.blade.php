@@ -33,11 +33,20 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="nav navbar-nav navbar-right">
+                <li><i class="far fa-user"></i> {{ Auth::user()->name }}</li>
+            </ul>
             <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
                 <li class="nav-item">
                     <a class="nav-link" id="" href="/admin">
                         <i class="fas fa-user-circle" aria-hidden="true"></i>
                         <span class="nav-link-text">{{ __('admin.admin') }}</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="" href="/admin/users">
+                        <i class="fas fa-users"></i>
+                        <span class="nav-link-text">{{ __('admin.users') }}</span>
                     </a>
                 </li>
                 <li class="nav-item">

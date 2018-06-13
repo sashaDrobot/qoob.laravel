@@ -11,7 +11,7 @@
                             @if( $orders->isEmpty() )
                             <p>{{ __('admin.empty') }}</p>
                             @else
-                            <table class="table table-orders">
+                            <table class="table table-list">
                                 <tr>
                                     <th>{{ __('admin.customer') }}</th>
                                     <th>{{ __('admin.contacts') }}</th>
@@ -42,7 +42,7 @@
                                 @endforeach
                             </table>
 
-                            <div class="cards-orders">
+                            <div class="cards-list">
                                 @foreach($orders as $order)
                                     <div class="card">
                                         <div class="card-header">

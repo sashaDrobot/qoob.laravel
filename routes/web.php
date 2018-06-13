@@ -10,6 +10,10 @@ Route::group([ 'prefix' => 'admin' ], function () {
     Route::get('/processed', 'AdminController@processed');
     Route::get('/process/{order}', 'AdminController@process');
     Route::delete('/delete/{order}', 'AdminController@delete');
+
+    Route::get('/users', 'UserController@index');
+    Route::post('/add', 'UserController@add');
+    Route::delete('/users/delete/{user}', 'UserController@delete');
 });
 
 // ---- Main ---- //
