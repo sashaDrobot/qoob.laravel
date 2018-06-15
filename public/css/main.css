@@ -128,14 +128,16 @@ body .landing .text {
     background-color: rgba(0,0,0,.6) !important;
     right: 0 !important;
 }
-
+.colored-menu-bg #rightside-menu{
+    box-shadow: -1px 0 35px rgba(0,0,0,.5);
+}
 #rightside-menu{
-    transition: right .6s linear;
+    transition: right .6s linear, box-shadow .6s linear;
     position: fixed;
     right: 0;
     top: 0;
     background-color: white;
-    box-shadow: -1px 0 35px rgba(0,0,0,.5);
+    box-shadow: 1px 0 35px rgba(0,0,0,.0);
     height: 100vh;
     padding-left: 65px;
 }
@@ -1020,6 +1022,7 @@ textarea{
     }
     header #main-hum {
         top: 23px;
+        margin-right: 16px;
     }
     header .society, header .languages {
         display: none !important;
@@ -1035,12 +1038,24 @@ textarea{
     }
     .header-mob {
         display: block;
-        height: 90vh;
-        padding-top: 20vh;
+        min-height: 500px;
+        height: 100vh;
     }
-    .header-mob h1, .header-mob h2 {
+    .header-mob-wrapper{
+        position: relative;
+    }
+
+    .header-mob-inner{
+        height: 90vh;
+    }
+    .header-mob-inner h1{
+        font-family: Acrom-bold, sans-serif;
         font-size: 60px;
-        font-weight: bolder;
+        color: white;
+        text-shadow: 1px 1px rgba(0,0,0,1.0), -1px 1px rgba(0,0,0,1.0), 1px -1px rgba(0,0,0,1.0), -1px -1px rgba(0,0,0,1.0);
+    }
+    .services-block {
+        margin-left: 0;
     }
     .contacts-container {
         background: none;
@@ -1049,6 +1064,9 @@ textarea{
         padding-top: 0;
         padding-bottom: 0;
         background: none;
+    }
+    .services-container .container-header {
+        margin-top: 0;
     }
     .contacts-container .container-header {
         margin: 60px 0 0 0 !important;

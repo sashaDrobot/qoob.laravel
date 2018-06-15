@@ -24,7 +24,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 </p>
                 <div class="text-center">
-                    <a href="#" class="qoob-button gradient-button">
+                    <a href="http://prominvest.com.ua" class="qoob-button gradient-button">
                         <span>submit</span>
                     </a>
                 </div>

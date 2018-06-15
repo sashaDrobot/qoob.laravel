@@ -25,13 +25,15 @@
         </div>
     </section>
 
-    <div class="container-fluid header-mob">
-        <div class="row">
-            <div class="col-lg-10 d-flex justify-content-center flex-column align-items-center">
-                <h1>QOOB</h1>
-                <h2>web</h2>
-                <h2>production</h2>
-                <h2>studio</h2>
+    <div class="container-fluid header-mob ">
+        <div class="row ">
+            <div class="col-12 header-mob-wrapper d-flex align-items-center">
+                <div class="col-12 header-mob-inner d-flex align-items-center justify-content-center flex-column">
+                    <h1>Web</h1>
+                    <h1>production</h1>
+                    <h1>studio</h1>
+                </div>
+
             </div>
         </div>
     </div>
