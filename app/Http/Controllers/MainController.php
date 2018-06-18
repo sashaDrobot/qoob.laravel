@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SentOrder;
 use Illuminate\Http\Request;
 use App\Order;
 use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Mail;
 
 class MainController extends Controller
 {
@@ -57,6 +59,9 @@ class MainController extends Controller
 
         $order = new Order();
         $order->insertOrder($order, $request);
+
+        Mail::to($request->email)
+            ->send(new SentOrder());
 
         $response = 'Ваше сообщение успешно отправлено!';
 
