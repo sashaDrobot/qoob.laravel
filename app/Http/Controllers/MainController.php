@@ -57,6 +57,9 @@ class MainController extends Controller
 
         $order = new Order();
         $order->insertOrder($order, $request);
-        return back();
+
+        $response = 'Ваше сообщение успешно отправлено!';
+
+        return response($response);
     }
 }

@@ -1,6 +1,25 @@
 @extends('layouts.main')
 
 @section('content')
+    <div class="container-fluid" id="modal-window">
+        <div class="container d-flex justify-content-center flex-column">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6 col-sm-12 col-xs-12 text-center" id="modal-inner">
+                    <div class="close-modal">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="row modal-window-content d-flex justify-content-center flex-column align-items-center text-center">
+                        <h3 id="modal-text"></h3>
+                        <button id="modal-button">
+                            ok
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container feedback-container">
         <div class="row text-center">
             <div class="col-12">
@@ -28,4 +47,5 @@
             </div>
         </form>
     </div>
+    <script src="{{ asset('js/form.js') }}"></script>
 @endsection

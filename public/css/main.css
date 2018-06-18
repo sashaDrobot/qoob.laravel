@@ -803,6 +803,77 @@ body .landing .text {
 /**********  end PORTFOLIO PAGE ********************/
 
 
+/************** modal *************/
+
+#modal-window{
+    position: fixed;
+    min-height: 600px;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    z-index: 10000;
+    display: none;
+    opacity: .0;
+    transition: opacity .3s linear;
+}
+.show-modal{
+    opacity: 1.0 !important;
+}
+#modal-window .container{
+    height: 100%;
+}
+#modal-window #modal-inner{
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    margin-top: -100px;
+    transition: margin-top .4s linear;
+}
+.show-modal #modal-inner{
+    margin-top: 0 !important;
+}
+#modal-window #modal-inner .close-modal{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+}
+#modal-window #modal-inner .close-modal span{
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    background-color: #212121;
+    position: absolute;
+    right:0;
+    top: 10px;
+}
+#modal-window #modal-inner .modal-window-content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#modal-button{
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: white;
+    color: #212121;
+    border: 1px solid #212121;
+    padding: 3px 50px;
+    margin-top: 20px;
+    transition: all .3s ease-in-out;
+}
+#modal-button:hover{
+    background-color: #212121;
+    color: white;
+}
+#modal-window #modal-inner .close-modal span:first-child{
+    transform: rotate(45deg);
+}
+#modal-window #modal-inner .close-modal span:last-child{
+    transform: rotate(-45deg);
+}
+/************ end modal **********/
 
 /************** feedback form *********************/
 

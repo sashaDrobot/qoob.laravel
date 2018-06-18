@@ -17,7 +17,6 @@
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/popper.js') }}"></script>
     <script src="{{ asset('js/bootstrap.js') }}"></script>
-    <script src="{{ asset('js/form.js') }}"></script>
 
     <!-- Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
