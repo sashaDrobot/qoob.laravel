@@ -61,7 +61,7 @@ class MainController extends Controller
         $order->insertOrder($order, $request);
 
         Mail::to($request->email)
-            ->send(new SentOrder());
+            ->send(new SentOrder($request->name));
 
         $response = 'Ваше сообщение успешно отправлено!';
 

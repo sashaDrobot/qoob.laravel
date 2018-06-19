@@ -1104,7 +1104,7 @@ textarea{
     .landing {
         display: none;
     }
-    .services-container {
+    .services-container, .portfolio-main-container {
         background: none;
     }
     .header-mob {
@@ -1115,9 +1115,8 @@ textarea{
     .header-mob-wrapper{
         position: relative;
     }
-
     .header-mob-inner{
-        height: 90vh;
+        height: 100vh;
     }
     .header-mob-inner h1{
         font-family: Acrom-bold, sans-serif;
@@ -1138,6 +1137,12 @@ textarea{
     }
     .services-container .container-header {
         margin-top: 0;
+    }
+    .portfolio-main-container .portfolio-preview {
+        margin-bottom: 20px;
+    }
+    .advantages-container .container-header, .portfolio-main-container .container-header {
+        margin-top: 10vh;
     }
     .contacts-container .container-header {
         margin: 60px 0 0 0 !important;

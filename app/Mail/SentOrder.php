@@ -2,6 +2,7 @@
 
 namespace App\Mail;
 
+use App\Order;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
@@ -11,14 +12,16 @@ class SentOrder extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $name;
+
     /**
      * Create a new message instance.
      *
-     * @return void
+     * @param Order $order
      */
-    public function __construct()
+    public function __construct($name)
     {
-        //
+        $this->name = $name;
     }
 
     /**
@@ -28,6 +31,7 @@ class SentOrder extends Mailable
      */
     public function build()
     {
-        return $this->subject('Your order is in processing')->markdown('emails.sent');
+        return $this->subject('Your order is in processing')
+            ->markdown('emails.sent');
     }
 }
