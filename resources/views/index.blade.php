@@ -229,11 +229,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row copyright-qoob">
-                <div class="col-12 text-center">
-                    <h6>© qoob, 2018 | Все права защищены</h6>
-                </div>
-            </div>
         </div>
     </div>
 @endsection

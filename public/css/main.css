@@ -562,6 +562,10 @@ body .landing .text {
     background-color: rgba(100,0,0,.75);
     opacity: 1.0;
 }
+.portfolio-element{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 /********** end-portfolio **********/
 /********** buttons **************/
 .qoob-button{
@@ -637,8 +641,18 @@ body .landing .text {
 .contacts-inform ul li:nth-child(2),.contacts-inform ul li:nth-child(5){
     margin-bottom: 35px;
 }
+footer{
+    background-color: #212121;
+    color: white;
+}
+.copyright-qoob{
+
+    min-height: 60px;
+}
 .copyright-qoob h6{
-    margin-top: 100px;
+    line-height: 0.8rem;
+    font-size: 0.8rem;
+    font-family: Acrom-light, sans-serif;
 }
 /************* end-contacts *********/
 /****************** ABOUT US PAGE ***********/
