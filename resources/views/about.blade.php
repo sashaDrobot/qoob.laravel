@@ -5,17 +5,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="container-header">Who we are</h1>
+                    <h1 class="container-header">Кто же мы?</h1>
                 </div>
                 <div class="col-12 text-left">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                        id est laborum.
+                    <p class="text-center">
+                        QOOB - коллектив единомышленников, который собрался в уютном офисе нашей компании
+                        с одной единой целью – стать лучшими, но не на бумаге, не в рейтингах, а для наших клиентов.
+                        У нас большие амбиции, и в то же время - мы профессионалы.
+                        Каждый наш клиент - в первую очередь наш друг.
                     </p>
                 </div>
             </div>
@@ -25,13 +22,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="container-header">Why us?</h1>
+                    <h1 class="container-header">Почему мы?</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 text-center">
                     <div class="col-12 why-us-adv-elem">
-                        <img src="{{ asset('img/icon1.png') }}">
+                        <img src="{{ asset('img/icon1.png') }}" alt="">
                         <h4>Best ideas</h4>
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -90,9 +87,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 contact-us-group text-center">
-                    <h5>Submit your application</h5>
+                    <h5>Создайте крутой проект</h5>
                     <a href="/feedback" class="qoob-button gradient-button">
-                        <span>submit</span>
+                        <span>Создать</span>
                     </a>
                 </div>
             </div>

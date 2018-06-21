@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="portfolio-header">Our works</h1>
+                    <h1 class="portfolio-header">Наши работы</h1>
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@
         </div>
         <div class="row portfolio-element">
             <div class="col-lg-6 order-lg-12 portfolio-preview align-self-center">
-                <img class="img-fluid" src="{{ asset('img/prom.png') }}">
+                <img class="img-fluid" src="{{ asset('img/prom.png') }}" alt="Prominvest Plastic">
             </div>
             <div class="col-lg-6 order-lg-1 portfolio-element-text text-center align-self-center">
                 <h2>Prominvset Plastic</h2>
@@ -32,7 +32,7 @@
         </div>
         <div class="row portfolio-element">
             <div class="col-lg-6 portfolio-preview align-self-center">
-                <img class="img-fluid" src="{{ asset('img/tiers.png') }}">
+                <img class="img-fluid" src="{{ asset('img/tiers.png') }}" alt="Prominvest Plastic">
             </div>
             <div class="col-lg-6 portfolio-element-text text-center align-self-center">
                 <h2>Prominvset Plastic</h2>
@@ -48,7 +48,7 @@
         </div>
         <div class="row portfolio-element">
             <div class="col-lg-6 order-lg-12 portfolio-preview align-self-center">
-                <img class="img-fluid" src="{{ asset('img/prom.png') }}">
+                <img class="img-fluid" src="{{ asset('img/prom.png') }}" alt="Prominvest Plastic">
             </div>
             <div class="col-lg-6 order-lg-1 portfolio-element-text text-center align-self-center">
                 <h2>Prominvset Plastic</h2>

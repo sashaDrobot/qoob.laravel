@@ -2,18 +2,17 @@
 
 @section('content')
     <section class='landing container-fluid'>
-        <video id="bg-video" class="hidden-video" autoplay='true' loop='true' muted='true' poster='' type="video/mp4"></video>
         <div class="container-fluid video-cont">
             <div class="row main">
                 <div class="col-lg-2">
-                    <h5>Beyond the possible</h5>
+                    <h5>За гранью возможного</h5>
                 </div>
             </div>
             <div class="row main-header text-center justify-content-center">
                 <div class="col-lg-12 align-self-center">
-                    <h1 class="main-header-text">
+                    <h2 class="main-header-text">
                         Web
-                    </h1>
+                    </h2>
                     <h2 class="main-header-text">
                         production
                     </h2>
@@ -42,18 +41,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3 class="container-header">services</h3>
+                    <h3 class="container-header">наши услуги</h3>
                 </div>
                 <div class="col-lg-3">
                     <div class="services-block">
                         <div class="col-lg-12 services-front text-center">
-                            <h3>Website <br> development</h3>
+                            <h3>Разработка <br> web-сайтов</h3>
                             <p>
-                                lorem ipsum
-                                dolor sit emmet
-                                lorem ipsum dolor sit emmet
-                                lorem ipsum dolor sit emmet
-                                lorem ipsum dolor sit emmet
+                                Создание оригинальных сайтов любого уровня
+                                и сложности на основе международного опыта,
+                                успеха и точных решений наших специалистов
                             </p>
                         </div>
                         <div class="col-lg-12 services-back">
@@ -64,13 +61,11 @@
                 <div class="col-lg-3">
                     <div class="services-block">
                         <div class="col-lg-12 services-front text-center">
-                            <h3>Seo <br> promotion</h3>
+                            <h3>Продвижение <br> сайта</h3>
                             <p>
-                                lorem ipsum
-                                dolor sit emmet
-                                lorem ipsum dolor sit emmet
-                                lorem ipsum dolor sit emmet
-                                lorem ipsum dolor sit emmet
+                                Эффективное продвижение сайта на просторах
+                                сети только для Вашей целевой аудитории с
+                                высокими показателями конверсии
                             </p>
                         </div>
                         <div class="col-lg-12 services-back">
@@ -81,13 +76,12 @@
                 <div class="col-lg-3">
                     <div class="services-block">
                         <div class="col-lg-12 services-front text-center branding">
-                            <h3>Branding</h3>
+                            <h3>Брендинг</h3>
                             <p>
-                                lorem ipsum
-                                dolor sit emmet
-                                lorem ipsum dolor sit emmet
-                                lorem ipsum dolor sit emmet
-                                lorem ipsum dolor sit emmet
+                                Создание уникального комплекса
+                                Бренд-имиджа
+                                Вашей компании. Все, от логотипа и фирменного стиля
+                                до разработки комплексной стратегии продвижения
                             </p>
                         </div>
                         <div class="col-lg-12 services-back">
@@ -98,13 +92,11 @@
                 <div class="col-lg-3">
                     <div class="services-block">
                         <div class="col-lg-12 services-front video-prod text-center">
-                            <h3>Video <br> production <br> & 3d</h3>
+                            <h3>Видео и <br> 3D-анимации</h3>
                             <p>
-                                lorem ipsum
-                                dolor sit emmet
-                                lorem ipsum dolor sit emmet
-                                lorem ipsum dolor sit emmet
-                                lorem ipsum dolor sit emmet
+                                Съемка рекламных видеороликов и корпоративных
+                                фильмов с последующим размещением
+                                и продвижением
                             </p>
                         </div>
                         <div class="col-lg-12 services-back">
@@ -120,58 +112,53 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3 class="container-header">advantages</h3>
+                    <h3 class="container-header">Наши прерогативы</h3>
                 </div>
             </div>
             <div class="row d-flex advantages-elem justify-content-center">
                 <div class="col-lg-2 advantages-inner text-center">
-                    <img src="{{ asset('img/unique_style.png') }}">
-                    <h3 class="text-center">Unique style</h3>
+                    <img src="{{ asset('img/unique_style.png') }}" alt="Unique style">
+                    <h3 class="text-center">Уникальный стиль</h3>
                     <p>
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
+                        Мы не занимаемся плагиатом – мы создаем инновации.
+                        Среди множества однообразных и шаблонных решений -
+                        мы создаем новое и  предлагаем только, то в чем уверены
                     </p>
                 </div>
                 <div class="col-lg-2 advantages-inner text-center">
-                    <img src="{{ asset('img/qualified.png') }}">
-                    <h3>Qualified team</h3>
+                    <img src="{{ asset('img/qualified.png') }}" alt="Qualified team">
+                    <h3>Команда супергероев</h3>
                     <p>
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
+                        Да-да, но не те, что в трико. Наши ребята это молодые люди,
+                        которые полны знаний и свежих взглядов, амбициозных идей и всегда,
+                        слышите всегда, с нестандартными решениями
                     </p>
                 </div>
                 <div class="col-lg-2 advantages-inner text-center">
-                    <img src="{{ asset('img/quarant.png') }}">
-                    <h3>100% guarantee</h3>
+                    <img src="{{ asset('img/quarant.png') }}" alt="100% guarantee">
+                    <h3>100% гарантия</h3>
                     <p>
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
+                        Мы не отправляем наших клиентов в одиночное плавание
+                        после завершения работы, а обеспечиваем надлежащее сервисное
+                        обслуживание на протяжении всего пути вашего проекта
                     </p>
                 </div>
                 <div class="col-lg-2 advantages-inner text-center">
-                    <img src="{{ asset('img/high.png') }}">
-                    <h3>High quality standards</h3>
+                    <img src="{{ asset('img/high.png') }}" alt="High quality standards">
+                    <h3>Высокие стандарты</h3>
                     <p>
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
+                        И даже еще выше! Наши дизайнеры прорисовывают все до
+                        мельчайших пикселей, а разработчиков не берет снотворное,
+                        пока они не довольны своей работой
                     </p>
                 </div>
                 <div class="col-lg-2 advantages-inner text-center">
-                    <img src="{{ asset('img/attentiv.png') }}">
-                    <h3>Unique style</h3>
+                    <img src="{{ asset('img/attentiv.png') }}" alt="SEO optimization">
+                    <h3>Честные цены</h3>
                     <p>
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
-                        lorem ipsum dolor sit emmet
+                        Никаких «от» и «до». Все формируется открыто,
+                        а предложения подбираются на основе Ваших пожеланий.
+                        Наши цены гибкие, как женская сборная, и классные, как Скала Джонсон
                     </p>
                 </div>
             </div>
@@ -180,28 +167,28 @@
     <div class="container portfolio-main-container ">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h3 class="container-header">portfolio</h3>
+                <h3 class="container-header">портфолио</h3>
             </div>
         </div>
         <div class="d-flex align-items-center">
             <div class="row portfolio-element">
                 <div class="col-lg-6 portfolio-preview">
-                    <img class="img-fluid" src="{{ asset('img/prom.png') }}">
+                    <img class="img-fluid" src="{{ asset('img/prom.png') }}" alt="Prominvest plastic">
                     <div class="portfolio-preview-colored-wrapper text-center d-flex flex-column  justify-content-center align-items-center">
                         <h2 class="align-self-center">Prominvest plastic</h2>
                         <hr>
                         <a href="/portfolio" class="qoob-button portfolio-button align-self-center draw">
-                            More
+                            Подробнее
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-6 portfolio-preview">
-                    <img class="img-fluid" src="{{ asset('img/tiers.png') }}">
+                    <img class="img-fluid" src="{{ asset('img/tiers.png') }}" alt="Tiers and Disks">
                     <div class="portfolio-preview-colored-wrapper text-center d-flex flex-column  justify-content-center align-items-center">
-                        <h2 class="align-self-center">Tiers & disks</h2>
+                        <h2 class="align-self-center">Шины и диски</h2>
                         <hr>
                         <a href="/portfolio" class="qoob-button portfolio-button align-self-center draw">
-                            More
+                            Подробнее
                         </a>
                     </div>
                 </div>
@@ -212,17 +199,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3 class="container-header">contacts</h3>
+                    <h3 class="container-header">контакты</h3>
                 </div>
             </div>
             <div class="row contacts-main-row">
                 <div class="col-lg-6">
                     <div class="submit-block text-center">
-                        <h1>Let`s make a cool<br> project together!</h1>
-                        <h5>submit your application</h5>
+                        <h1>Давайте положим начало  <br/> прекрасной дружбе</h1>
+                        <h5>И создадим крутой проект!</h5>
                         <div class="text-center">
                             <a href="/feedback" class="qoob-button gradient-button">
-                                <span>submit</span>
+                                <span>Давайте!</span>
                             </a>
                         </div>
                     </div>
@@ -230,21 +217,21 @@
                 <div class="col-lg-5 offset-lg-1">
                     <div class="contacts-inform">
                         <ul>
-                            <li class="header-contact-inform">Mail:</li>
+                            <li class="header-contact-inform">Почта:</li>
                             <li><a href="mailto:qoobstudio@gmail.com">qoobstudio@gmail.com</a></li>
-                            <li class="header-contact-inform">Phone:</li>
+                            <li class="header-contact-inform">Телефон:</li>
                             <li>(068) 009 00 99</li>
                             <li>(066) 009 00 99</li>
-                            <li class="header-contact-inform">Address:</li>
-                            <li>Kharkiv, Ukraine</li>
-                            <li>Plekhanovkaya Str. 126/1</li>
+                            <li class="header-contact-inform">Адрес:</li>
+                            <li>Харьков, Украина</li>
+                            <li>ул. Плехановская 126/1</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row copyright-qoob">
                 <div class="col-12 text-center">
-                    <h6>qoob 2018</h6>
+                    <h6>© qoob, 2018 | Все права защищены</h6>
                 </div>
             </div>
         </div>

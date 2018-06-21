@@ -5,26 +5,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="services-header">Our services</h1>
+                    <h1 class="services-header">Наши услуги</h1>
                 </div>
             </div>
         </div>
     </div>
     <div class="container main-services-ways">
         <div class="row">
-            <div class="col-12 text-center serv-description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, </p>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-lg-3 d-flex align-items-center serv-way-wrapper">
                 <div class="col-12 back-letter text-center">
                     <h1>W</h1>
                 </div>
                 <div class="col-12 d-flex serv-way-element align-items-center text-center">
-                    <h3>Website <br> development</h3>
+                    <h3>Разработка <br> web-сайтов</h3>
                 </div>
                 <div class="col-12 serv-number text-right">
                     <h2>01</h2>
@@ -35,7 +28,7 @@
                     <h1>S</h1>
                 </div>
                 <div class="col-12 d-flex serv-way-element align-items-center text-center">
-                    <h3>Seo <br> promotion</h3>
+                    <h3>Seo <br> продвижение</h3>
                 </div>
                 <div class="col-12 serv-number text-right">
                     <h2>02</h2>
@@ -46,7 +39,7 @@
                     <h1>B</h1>
                 </div>
                 <div class="col-12 d-flex serv-way-element align-items-center text-center">
-                    <h3>Branding</h3>
+                    <h3>Брендинг</h3>
                 </div>
                 <div class="col-12 serv-number text-right">
                     <h2>03</h2>
@@ -57,7 +50,7 @@
                     <h1>V</h1>
                 </div>
                 <div class="col-12 d-flex serv-way-element align-items-center text-center">
-                    <h3>Video <br> production <br> & 3d</h3>
+                    <h3>Создание <br> видео <br> и 3d</h3>
                 </div>
                 <div class="col-12 serv-number text-right">
                     <h2>04</h2>
@@ -68,82 +61,78 @@
     <div class="container services-group-container">
         <div class="row services-group-container-header">
             <div class="col-12 text-center">
-                <h2>Website <br> development</h2>
+                <h2>Разработка web-сайтов</h2>
             </div>
         </div>
         <div class="row services-group-row">
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Landing page
                     </h3>
                 </div>
 
                 <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
+                    Отличный выбор для продвижения продукта
+                    или услуги – призывает пользователя на совершение
+                    покупки или перехода на основной сайт. Может быть
+                    использован как вспомогательный инструмент для вашего основного сайта
                 </p>
             </div>
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Интернет-магазин
                     </h3>
                 </div>
 
                 <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
+                    Пора бы заняться бизнесом по серьезному?
+                    Чтобы Вы не задумали – нужно конкурировать.
+                    И именно функциональное и визуальное оформление
+                    играет немаловажную роль. Ну и идея, конечно же.
                 </p>
             </div>
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Корпоративный сайт
                     </h3>
                 </div>
 
                 <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
+                    Сделаем Вашу компанию вновь крутой! Давайте
+                    обновляться и идти в ногу со временем. Лучшее
+                    решение – когда Ваша компания будет иметь
+                    флагманский сайт среди конкурентов.
                 </p>
             </div>
         </div>
         <div class="row services-group-row">
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
+            <div class="col-lg-4 offset-lg-2 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Сайт-визитка
                     </h3>
                 </div>
 
                 <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
+                    Лучше всего раскроет вас как личность,
+                    профессионала или вашу  небольшую, но гордую компанию.
+                    Удобный, непростой и красивый – прямо как Вы.
                 </p>
             </div>
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        On-Line сервисы
                     </h3>
                 </div>
 
                 <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
-            </div>
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
-                <div class="services-group-elem-header-wrapper">
-                    <h3 class="services-group-elem-header">
-                        Landng page
-                    </h3>
-                </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
+                    Задумали создать бизнес в интернете, на полноценном сервисе
+                    в сети? Мы только рады присоединиться к крупномасштабному
+                    проекту и сделать его лучшим.
                 </p>
             </div>
         </div>
@@ -151,82 +140,58 @@
     <div class="container services-group-container">
         <div class="row services-group-container-header">
             <div class="col-12 text-center">
-                <h2>Seo <br> promotion</h2>
+                <h2>Продвижение сайта</h2>
             </div>
         </div>
         <div class="row services-group-row">
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        SEO оптимизация
                     </h3>
                 </div>
 
                 <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
+                    Оптимизируем сайт и выводим в верхние
+                    позиции выдачи поиска, тем самым увеличивая
+                    посещаемость и, как следствие, продажи
                 </p>
             </div>
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Контекстная реклама
                     </h3>
                 </div>
 
                 <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
+                    Создаем привлекательные
+                    рекламные объявления, направленные
+                    на вашу целевую аудиторию
                 </p>
             </div>
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        E-mail маркетинг
                     </h3>
                 </div>
 
                 <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
+                    Мы будем создавать и формировать правильные письма рассылки для Вашей базы клиентов
                 </p>
             </div>
         </div>
         <div class="row services-group-row">
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
+            <div class="col-lg-4 offset-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Целевая реклама в социальных сетях
                     </h3>
                 </div>
 
                 <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
-            </div>
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
-                <div class="services-group-elem-header-wrapper">
-                    <h3 class="services-group-elem-header">
-                        Landng page
-                    </h3>
-                </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
-            </div>
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
-                <div class="services-group-elem-header-wrapper">
-                    <h3 class="services-group-elem-header">
-                        Landng page
-                    </h3>
-                </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
+                    Ваши клиенты будут идти к Вам прямиком из социальных сетей
                 </p>
             </div>
         </div>
@@ -234,165 +199,82 @@
     <div class="container services-group-container">
         <div class="row services-group-container-header">
             <div class="col-12 text-center">
-                <h2>Branding</h2>
+                <h2>БРЕНДИНГ</h2>
             </div>
         </div>
         <div class="row services-group-row">
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Разработка<br/>бренд-бука
                     </h3>
                 </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
             </div>
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Анализ рынка и конкурентов
                     </h3>
                 </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
             </div>
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Нейминг, создание логотипа и фирменного стиля
                     </h3>
                 </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
             </div>
         </div>
         <div class="row services-group-row">
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
+            <div class="col-lg-4 offset-lg-2 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Исследования предпочтений целевой аудитории
                     </h3>
                 </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
             </div>
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Построение долгосрочной стратегии продвижения бренда
                     </h3>
                 </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
-            </div>
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
-                <div class="services-group-elem-header-wrapper">
-                    <h3 class="services-group-elem-header">
-                        Landng page
-                    </h3>
-                </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
             </div>
         </div>
     </div>
-    <div class="container services-group-container">
+    <div class="container services-group-container video-services">
         <div class="row services-group-container-header">
             <div class="col-12 text-center">
-                <h2>Video <br> production <br> & 3d</h2>
+                <h2>Съемка видео<br></h2>
             </div>
         </div>
         <div class="row services-group-row">
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
+            <div class="col-lg-4 offset-lg-2 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Съемка рекламных видео-роликов
                     </h3>
                 </div>
 
                 <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
+                    От идеи и концепции до монтажа и готового продукта.
+                    Обращаясь к нам, Вы получаете полный сервис разработки
+                    рекламного видео-продукта. Мы предлагаем креативные идеи,
+                    благодаря которым Ваша реклама запомнится. А может, и поедет в Канны.
                 </p>
             </div>
             <div class="col-lg-4 services-group-elem-wrapper text-center">
                 <div class="services-group-elem-header-wrapper">
                     <h3 class="services-group-elem-header">
-                        Landng page
+                        Съемка корпоративных видео
                     </h3>
                 </div>
 
                 <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
-            </div>
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
-                <div class="services-group-elem-header-wrapper">
-                    <h3 class="services-group-elem-header">
-                        Landng page
-                    </h3>
-                </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
-            </div>
-        </div>
-        <div class="row services-group-row">
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
-                <div class="services-group-elem-header-wrapper">
-                    <h3 class="services-group-elem-header">
-                        Landng page
-                    </h3>
-                </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
-            </div>
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
-                <div class="services-group-elem-header-wrapper">
-                    <h3 class="services-group-elem-header">
-                        Landng page
-                    </h3>
-                </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                </p>
-            </div>
-            <div class="col-lg-4 services-group-elem-wrapper text-center">
-                <div class="services-group-elem-header-wrapper">
-                    <h3 class="services-group-elem-header">
-                        Landng page
-                    </h3>
-                </div>
-
-                <p class="services-group-elem-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
+                    Лучше один раз увидеть что-то красивое, чем 100 раз увидеть
+                    скучное. Мы расскажем о компании потенциальным клиентам в формате
+                    ролика, где покажем Ваши конкурентные преимущества и придумаем
+                    столько изюминок, что получится буквально кекс.
                 </p>
             </div>
         </div>

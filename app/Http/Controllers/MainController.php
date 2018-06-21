@@ -14,37 +14,37 @@ class MainController extends Controller
 
     public function index()
     {
-        $this->title = 'Qoob';
+        $this->title = 'Qoob - web production studio | web-дизайн | web-сайт | разработка | SEO | Харьков';
         return view('index', [ 'title' => $this->title ]);
     }
 
     public function about()
     {
-        $this->title = 'About us';
+        $this->title = 'О нас';
         return view('about', [ 'title' => $this->title ]);
     }
 
     public function portfolio()
     {
-        $this->title = 'Our portfolio';
+        $this->title = 'Портфолио';
         return view('portfolio', [ 'title' => $this->title ]);
     }
 
     public function services()
     {
-        $this->title = 'Services';
+        $this->title = 'Услуги';
         return view('services', [ 'title' => $this->title ]);
     }
 
     public function contacts()
     {
-        $this->title = 'Contacts';
+        $this->title = 'Контакты';
         return view('contacts', [ 'title' => $this->title ]);
     }
 
     public function feedback()
     {
-        $this->title = 'Feedback';
+        $this->title = 'Обратная связь';
         return view('feedback', [ 'title' => $this->title ]);
     }
 
