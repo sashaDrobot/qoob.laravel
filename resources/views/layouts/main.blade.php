@@ -11,6 +11,24 @@
     <meta property = "business:contact_data:country_name" content = "Украина">
     <meta property = "business:contact_data:locality" content = "Харьков">
 
+    <!-- Разметка JSON-LD Google -->
+    <script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "@type" : "LocalBusiness",
+          "name" : "qoob",
+          "image" : "http://qoob-studio.com/img/qoobcolor_horizontal.png",
+          "telephone" : "(095) 356 83 36",
+          "email" : "info@qoob-studio.com",
+          "address" : {
+            "@type" : "PostalAddress",
+            "streetAddress" : "ул. Плехановская 126/1",
+            "addressLocality" : "Харьков",
+            "addressCountry" : "Украина"
+          }
+        }
+    </script>
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 

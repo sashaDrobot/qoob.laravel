@@ -26,10 +26,10 @@
                     <div class="contacts-inform">
                         <ul>
                             <li class="header-contact-inform">Почта:</li>
-                            <li><a href="mailto:qoobstudio@gmail.com">qoobstudio@gmail.com</a></li>
+                            <li><a href="mailto:info@qoob-studio.com">info@qoob-studio.com</a></li>
                             <li class="header-contact-inform">Телефон:</li>
-                            <li>(068) 009 00 99</li>
-                            <li>(066) 009 00 99</li>
+                            <li><a href="tel:+380953568336">(095) 356 83 36</a></li>
+                            <li></li>
                             <li class="header-contact-inform">Адрес:</li>
                             <li>Харьков, Украина</li>
                             <li>ул. Плехановская 126/1</li>
