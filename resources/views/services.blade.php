@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Услуги')
+
 @section('content')
     <div class="container-fluid services-header-container header-container d-flex align-items-center">
         <div class="container">

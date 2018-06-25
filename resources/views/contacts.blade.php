@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Контакты')
+
 @section('content')
     <div class="container-fluid contacts-container ">
         <div class="container">

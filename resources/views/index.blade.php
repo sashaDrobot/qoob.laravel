@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Qoob - web production studio | web-дизайн | web-сайт | разработка | SEO | Харьков')
+
 @section('content')
     <section class='landing container-fluid'>
         <div class="container-fluid video-cont">
@@ -117,7 +119,7 @@
             </div>
             <div class="row d-flex advantages-elem justify-content-center">
                 <div class="col-lg-2 advantages-inner text-center">
-                    <img src="{{ asset('img/unique_style.png') }}" alt="Unique style">
+                    <img src="{{ asset('img/unique_style.png') }}" alt="уникальный стиль, дизайн сайта">
                     <h3 class="text-center">Уникальный стиль</h3>
                     <p>
                         Мы не занимаемся плагиатом – мы создаем инновации.
@@ -126,7 +128,7 @@
                     </p>
                 </div>
                 <div class="col-lg-2 advantages-inner text-center">
-                    <img src="{{ asset('img/qualified.png') }}" alt="Qualified team">
+                    <img src="{{ asset('img/qualified.png') }}" alt="квалифицированная команда разработчиков">
                     <h3>Команда супергероев</h3>
                     <p>
                         Да-да, но не те, что в трико. Наши ребята это молодые люди,
@@ -135,7 +137,7 @@
                     </p>
                 </div>
                 <div class="col-lg-2 advantages-inner text-center">
-                    <img src="{{ asset('img/quarant.png') }}" alt="100% guarantee">
+                    <img src="{{ asset('img/quarant.png') }}" alt="100% гарантия качества">
                     <h3>100% гарантия</h3>
                     <p>
                         Мы не отправляем наших клиентов в одиночное плавание
@@ -144,7 +146,7 @@
                     </p>
                 </div>
                 <div class="col-lg-2 advantages-inner text-center">
-                    <img src="{{ asset('img/high.png') }}" alt="High quality standards">
+                    <img src="{{ asset('img/high.png') }}" alt="высокие стандарты">
                     <h3>Высокие стандарты</h3>
                     <p>
                         И даже еще выше! Наши дизайнеры прорисовывают все до
@@ -153,7 +155,7 @@
                     </p>
                 </div>
                 <div class="col-lg-2 advantages-inner text-center">
-                    <img src="{{ asset('img/attentiv.png') }}" alt="SEO optimization">
+                    <img src="{{ asset('img/attentiv.png') }}" alt="низкие цены">
                     <h3>Честные цены</h3>
                     <p>
                         Никаких «от» и «до». Все формируется открыто,
@@ -183,7 +185,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 portfolio-preview">
-                    <img class="img-fluid" src="{{ asset('img/tiers.png') }}" alt="Tiers and Disks">
+                    <img class="img-fluid" src="{{ asset('img/tiers.png') }}" alt="Шины и диски Харьков интернет-магазин">
                     <div class="portfolio-preview-colored-wrapper text-center d-flex flex-column  justify-content-center align-items-center">
                         <h2 class="align-self-center">Шины и диски</h2>
                         <hr>

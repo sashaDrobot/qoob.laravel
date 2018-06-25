@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'О нас')
+
 @section('content')
     <div class="container-fluid who-we-container d-flex align-items-end">
         <div class="container">

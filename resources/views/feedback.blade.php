@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Обратная связь')
+
 @section('content')
     <div class="container-fluid" id="modal-window">
         <div class="container d-flex justify-content-center flex-column">

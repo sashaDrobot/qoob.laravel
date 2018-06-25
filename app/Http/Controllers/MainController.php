@@ -5,47 +5,39 @@ namespace App\Http\Controllers;
 use App\Mail\SentOrder;
 use Illuminate\Http\Request;
 use App\Order;
-use Illuminate\Support\Facades\Lang;
 use Illuminate\Support\Facades\Mail;
 
 class MainController extends Controller
 {
-    protected $title;
 
     public function index()
     {
-        $this->title = 'Qoob - web production studio | web-дизайн | web-сайт | разработка | SEO | Харьков';
-        return view('index', [ 'title' => $this->title ]);
+        return view('index');
     }
 
     public function about()
     {
-        $this->title = 'О нас';
-        return view('about', [ 'title' => $this->title ]);
+        return view('about');
     }
 
     public function portfolio()
     {
-        $this->title = 'Портфолио';
-        return view('portfolio', [ 'title' => $this->title ]);
+        return view('portfolio');
     }
 
     public function services()
     {
-        $this->title = 'Услуги';
-        return view('services', [ 'title' => $this->title ]);
+        return view('services');
     }
 
     public function contacts()
     {
-        $this->title = 'Контакты';
-        return view('contacts', [ 'title' => $this->title ]);
+        return view('contacts');
     }
 
     public function feedback()
     {
-        $this->title = 'Обратная связь';
-        return view('feedback', [ 'title' => $this->title ]);
+        return view('feedback');
     }
 
     public function send(Request $request)
