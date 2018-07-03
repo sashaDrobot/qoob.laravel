@@ -42,12 +42,47 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/jquery.js') }}"></script>
+    <script src="{{ asset('js/loader.js') }}"></script>
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 </head>
 <body>
+<div class="loaderArea">
+    <div class="loader">
+        <div class="letters" id="pre-letters">
+            <div class="letter-wrapper">
+                <div class="letter q-letter">
+                    <div class="letter-circle">
+
+                    </div>
+                </div>
+            </div>
+            <div class="letter-wrapper">
+                <div class="letter o-letter">
+                    <div class="letter-circle">
+
+                    </div>
+                </div>
+            </div>
+            <div class="letter-wrapper">
+                <div class="letter o-letter">
+                    <div class="letter-circle">
+
+                    </div>
+                </div>
+            </div>
+            <div class="letter-wrapper">
+                <div class="letter b-letter">
+                    <div class="letter-circle">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="head">
         <a class="navbar-brand" href="/"><img src="{{ asset('img/qoobcolor_horizontal.png') }}" alt="qoob web production studio"></a>

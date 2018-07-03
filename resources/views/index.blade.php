@@ -4,6 +4,7 @@
 
 @section('content')
     <section class='landing container-fluid'>
+        <video id="bg-video" class="hidden-video" autoplay="true" loop="true" muted="true" poster="" src="http://qoob-studio.com/video/Ink_in_Water_Background__720p__(MosCatalogue.net).mp4" type="video/mp4"></video>
         <div class="container-fluid video-cont">
             <div class="row main">
                 <div class="col-lg-2">
@@ -55,7 +56,7 @@
                                 успеха и точных решений наших специалистов
                             </p>
                         </div>
-                        <div class="col-lg-12 services-back">
+                        <div class="col-lg-12 services-back color-w">
                             <h1>W</h1>
                         </div>
                     </div>
@@ -70,7 +71,7 @@
                                 высокими показателями конверсии
                             </p>
                         </div>
-                        <div class="col-lg-12 services-back">
+                        <div class="col-lg-12 services-back color-s">
                             <h1>S</h1>
                         </div>
                     </div>
@@ -86,7 +87,7 @@
                                 до разработки комплексной стратегии продвижения
                             </p>
                         </div>
-                        <div class="col-lg-12 services-back">
+                        <div class="col-lg-12 services-back color-b">
                             <h1>B</h1>
                         </div>
                     </div>
@@ -101,7 +102,7 @@
                                 и продвижением
                             </p>
                         </div>
-                        <div class="col-lg-12 services-back">
+                        <div class="col-lg-12 services-back color-v">
                             <h1>V</h1>
                         </div>
                     </div>

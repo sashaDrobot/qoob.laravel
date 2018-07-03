@@ -19,6 +19,7 @@ html, body {
     width: 100%;
     margin: 0;
 }
+
 body {
     font-family: Acrom, sans-serif;
     color: black;
@@ -69,6 +70,93 @@ a,a:hover,a:active,a:focus{
         color: white;
     }
 }
+
+.loaderArea {
+    background: black;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    z-index: 100000;
+}
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.loader .letters{
+    width: auto;
+    height: 100px;
+    position: relative;
+}
+.letter-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+.letters-out-animation .letter-wrapper:first-child{
+    left: -150px;
+}
+.letters-out-animation .letter-wrapper:nth-child(2){
+    left: -50px;
+}
+.letters-out-animation .letter-wrapper:nth-child(3){
+    left: 50px;
+}
+.letters-out-animation .letter-wrapper:last-child{
+    left: 150px;
+}
+.letter-wrapper{
+    transition: left 2s ease-in-out;
+}
+.loader .letters .letter-circle{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+}
+.loader .letters .letter-circle:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50px;
+}
+.q-letter .letter-circle:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 10px;
+    height: 80px;
+    background-color: white;
+}
+.b-letter .letter-circle:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    width: 10px;
+    height: 80px;
+    background-color: white;
+}
+
 /* ------------- video-background ---------------- */
 body .landing {
     width: 100%;
@@ -371,6 +459,18 @@ body .landing .text {
     opacity: .0;
     transition: opacity .1s linear;
     margin-top: 30px;
+}
+.services-block .color-w {
+    background: rgb(109, 139, 245) !important;
+}
+.services-block .color-s {
+    background: rgb(254, 101, 97);
+}
+.services-block .color-b {
+    background: rgb(207, 1, 52);
+}
+.services-block .color-v {
+    background: rgb(189, 72, 151);
 }
 .services-back{
     transition: all .3s linear;
@@ -888,6 +988,18 @@ textarea{
 }
 /************* end feedback form ****************/
 /*************** services page **************/
+.main-services-ways .serv-way-wrapper:hover .color-w {
+    color: rgb(109, 139, 245);
+}
+.main-services-ways .serv-way-wrapper:hover .color-s {
+    color: rgb(254, 101, 97);
+}
+.main-services-ways .serv-way-wrapper:hover .color-b {
+    color: rgb(207, 1, 52);
+}
+.main-services-ways .serv-way-wrapper:hover .color-v {
+    color: rgb(189, 72, 151);
+}
 .serv-description p{
     font-family: Acrom, sans-serif;
     font-size: 18px;
@@ -933,9 +1045,6 @@ textarea{
     color: rgba(245,245,245,1.0);
     transition: color .2s linear;
 }
-.serv-way-wrapper:hover .back-letter h1{
-    color: rgba(79,29,115,1.0);
-}
 .serv-way-wrapper:hover .serv-way-element h3{
     color: rgb(255,255,255);
     text-shadow: 1px 1px rgba(0,0,0,1.0), -1px 1px rgba(0,0,0,1.0),
@@ -977,7 +1086,7 @@ textarea{
     border-left:1px solid rgba(144,149,255,0.0);
     border-right:1px solid rgba(144,149,255,0.0);
     border-bottom: 1px solid rgba(67,5,88,0.0);
-    transition: border .2s linear;
+    transition: border .2s linear, background-color .2s linear;
     padding: 0;
 }
 .video-services .services-group-elem-wrapper{
@@ -1009,16 +1118,26 @@ textarea{
     transition: color .2s linear;
 }
 .services-group-elem-wrapper:hover{
-    border-top: 1px solid rgba(144,149,255,1.0);
-    border-left:1px solid rgba(144,149,255,1.0);
-    border-right:1px solid rgba(144,149,255,1.0);
-    border-bottom: 1px solid rgba(67,5,88,1.0);
-}
-.services-group-elem-wrapper:hover .services-group-elem-header-wrapper{
-    background-color: rgba(245,245,245,.0);
+
 }
 .services-group-elem-wrapper:hover .services-group-elem-description{
     color: rgba(0,0,0,1.0);
+}
+.bg-color-w .services-group-elem-wrapper:hover, .bg-color-w .services-group-elem-wrapper:hover .services-group-elem-header-wrapper{
+    background: rgb(109, 139, 245);
+    color: white;
+}
+.bg-color-s .services-group-elem-wrapper:hover, .bg-color-s .services-group-elem-wrapper:hover .services-group-elem-header-wrapper {
+    background: rgb(254, 101, 97);
+    color: white;
+}
+.bg-color-b .services-group-elem-wrapper:hover, .bg-color-b .services-group-elem-wrapper:hover .services-group-elem-header-wrapper {
+    background: rgb(207, 1, 52);
+    color: white !important;
+}
+.bg-color-v .services-group-elem-wrapper:hover, .bg-color-v .services-group-elem-wrapper:hover .services-group-elem-header-wrapper {
+    background: rgb(189, 72, 151);
+    color: white;
 }
 /*************** end services page ***********/
 /* RESPONSIVE CSS */

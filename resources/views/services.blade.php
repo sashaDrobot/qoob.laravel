@@ -16,51 +16,39 @@
         <div class="row">
             <div class="col-lg-3 d-flex align-items-center serv-way-wrapper">
                 <div class="col-12 back-letter text-center">
-                    <h1>W</h1>
+                    <h1 class="color-w">W</h1>
                 </div>
                 <div class="col-12 d-flex serv-way-element align-items-center text-center">
                     <h3>Разработка <br> web-сайтов</h3>
                 </div>
-                <div class="col-12 serv-number text-right">
-                    <h2>01</h2>
-                </div>
             </div>
             <div class="col-lg-3 d-flex align-items-center serv-way-wrapper">
                 <div class="col-12 back-letter text-center">
-                    <h1>S</h1>
+                    <h1 class="color-s">S</h1>
                 </div>
                 <div class="col-12 d-flex serv-way-element align-items-center text-center">
                     <h3>Seo <br> продвижение</h3>
                 </div>
-                <div class="col-12 serv-number text-right">
-                    <h2>02</h2>
-                </div>
             </div>
             <div class="col-lg-3 d-flex align-items-center serv-way-wrapper">
                 <div class="col-12 back-letter text-center">
-                    <h1>B</h1>
+                    <h1 class="color-b">B</h1>
                 </div>
                 <div class="col-12 d-flex serv-way-element align-items-center text-center">
                     <h3>Брендинг</h3>
                 </div>
-                <div class="col-12 serv-number text-right">
-                    <h2>03</h2>
-                </div>
             </div>
             <div class="col-lg-3 d-flex align-items-center serv-way-wrapper">
                 <div class="col-12 back-letter text-center">
-                    <h1>V</h1>
+                    <h1 class="color-v">V</h1>
                 </div>
                 <div class="col-12 d-flex serv-way-element align-items-center text-center">
                     <h3>Создание <br> видео <br> и 3d</h3>
                 </div>
-                <div class="col-12 serv-number text-right">
-                    <h2>04</h2>
-                </div>
             </div>
         </div>
     </div>
-    <div class="container services-group-container">
+    <div class="container services-group-container bg-color-w">
         <div class="row services-group-container-header">
             <div class="col-12 text-center">
                 <h2>Разработка web-сайтов</h2>
@@ -139,7 +127,7 @@
             </div>
         </div>
     </div>
-    <div class="container services-group-container">
+    <div class="container services-group-container bg-color-s">
         <div class="row services-group-container-header">
             <div class="col-12 text-center">
                 <h2>Продвижение сайта</h2>
@@ -198,10 +186,10 @@
             </div>
         </div>
     </div>
-    <div class="container services-group-container">
+    <div class="container services-group-container bg-color-b">
         <div class="row services-group-container-header">
             <div class="col-12 text-center">
-                <h2>БРЕНДИНГ</h2>
+                <h2>Брендинг</h2>
             </div>
         </div>
         <div class="row services-group-row">
@@ -244,7 +232,7 @@
             </div>
         </div>
     </div>
-    <div class="container services-group-container video-services">
+    <div class="container services-group-container video-services bg-color-v">
         <div class="row services-group-container-header">
             <div class="col-12 text-center">
                 <h2>Съемка видео<br></h2>
