@@ -33,6 +33,9 @@ a,a:hover,a:active,a:focus{
     width: 100%;
     background-color: black;
 }
+
+
+/* ------ LOADER ------ */
 .loaderArea {
     background: black;
     overflow: hidden;
@@ -50,57 +53,26 @@ a,a:hover,a:active,a:focus{
     width: 100vw;
     height: 100vh;
     position: absolute;
-}
-.loader>div{
-    position: relative;
-    color: white;
-}
-.loader>div>span{
-    display: inline-block;
-    font-size: 9vw;
-    font-family: Acrom-light, sans-serif;
-    letter-spacing: -1vw;
-    animation: zoom 1s ease-in-out;
-}
-@keyframes zoom {
-    from{
-      color: black;
-    }
-    to{
-        color: white;
-    }
-}
-
-.loaderArea {
-    background: black;
-    overflow: hidden;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right:0;
-    bottom:0;
-    z-index: 100000;
-}
-.loader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-}
-
-.loader .letters{
-    width: auto;
-    height: 100px;
-    position: relative;
 }
 .letter-wrapper{
     position: absolute;
     top: 0;
     left: 0;
     display: inline-block;
+    margin-left: 250px;
 }
+.loader .letters{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    justify-self: center;
+}
+.letters-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
 .letters-out-animation .letter-wrapper:first-child{
     left: -150px;
 }
@@ -112,6 +84,9 @@ a,a:hover,a:active,a:focus{
 }
 .letters-out-animation .letter-wrapper:last-child{
     left: 150px;
+}
+.letters-out-animation-v-line .letter-wrapper .q-letter .letter-circle:before,.letters-out-animation-v-line .letter-wrapper .b-letter .letter-circle:before{
+    height: 80px;
 }
 .letter-wrapper{
     transition: left 2s ease-in-out;
@@ -141,21 +116,24 @@ a,a:hover,a:active,a:focus{
     display: block;
     position: absolute;
     top: 50px;
-    right: 0px;
+    right: 0;
     width: 10px;
-    height: 80px;
+    height: 0;
     background-color: white;
+    transition: height .3s ease-in;
 }
 .b-letter .letter-circle:before {
     content: "";
     display: block;
     position: absolute;
     bottom: 50px;
-    left: 0px;
+    left: 0;
     width: 10px;
-    height: 80px;
+    height: 0;
     background-color: white;
+    transition: height .3s ease-in;
 }
+/* ------ LOADER ------ */
 
 /* ------------- video-background ---------------- */
 body .landing {
@@ -163,6 +141,7 @@ body .landing {
     overflow: hidden;
     min-height: 100vh;
     position: relative;
+    padding: 0 !important;
 }
 body .landing video {
     min-height: 1000px;
@@ -1278,5 +1257,24 @@ textarea{
         background: none;
         border: none;
         color: #868e96;
+    }
+    .loader .letters {
+        width: 325px
+    }
+    .letter-wrapper{
+        transform: scale(.5);
+        margin-left: 125px;
+    }
+    .letters-out-animation .letter-wrapper:first-child{
+        left: -75px;
+    }
+    .letters-out-animation .letter-wrapper:nth-child(2){
+        left: -25px;
+    }
+    .letters-out-animation .letter-wrapper:nth-child(3){
+        left: 25px;
+    }
+    .letters-out-animation .letter-wrapper:last-child{
+        left: 75px;
     }
 }

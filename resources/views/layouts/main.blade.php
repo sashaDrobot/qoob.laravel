@@ -35,6 +35,7 @@
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
 
+    <meta name="theme-color" content="#000000">
     <title>@yield('title')</title>
 
     <!-- Fonts -->
@@ -45,38 +46,40 @@
     <script src="{{ asset('js/loader.js') }}"></script>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 </head>
 <body>
 <div class="loaderArea">
     <div class="loader">
-        <div class="letters" id="pre-letters">
-            <div class="letter-wrapper">
-                <div class="letter q-letter">
-                    <div class="letter-circle">
+        <div class="letters-wrapper">
+            <div class="letters" id="pre-letters">
+                <div class="letter-wrapper">
+                    <div class="letter q-letter">
+                        <div class="letter-circle">
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="letter-wrapper">
-                <div class="letter o-letter">
-                    <div class="letter-circle">
+                <div class="letter-wrapper">
+                    <div class="letter o-letter">
+                        <div class="letter-circle">
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="letter-wrapper">
-                <div class="letter o-letter">
-                    <div class="letter-circle">
+                <div class="letter-wrapper">
+                    <div class="letter o-letter">
+                        <div class="letter-circle">
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="letter-wrapper">
-                <div class="letter b-letter">
-                    <div class="letter-circle">
+                <div class="letter-wrapper">
+                    <div class="letter b-letter">
+                        <div class="letter-circle">
 
+                        </div>
                     </div>
                 </div>
             </div>
