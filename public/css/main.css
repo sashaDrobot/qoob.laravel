@@ -62,7 +62,7 @@ a,a:hover,a:active,a:focus{
     margin-left: 250px;
 }
 .loader .letters{
-    width: 500px;
+    width: 550px;
     height: 100px;
     position: relative;
     justify-self: center;
@@ -95,8 +95,8 @@ a,a:hover,a:active,a:focus{
     position: relative;
     top: 0;
     left: 0;
-    width: 100px;
-    height: 100px;
+    width: 84px;
+    height: 84px;
     background-color: white;
     border-radius: 50px;
 }
@@ -104,8 +104,8 @@ a,a:hover,a:active,a:focus{
     content: "";
     display: block;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 2px;
+    left: 2px;
     width: 80px;
     height: 80px;
     background-color: black;
@@ -115,9 +115,9 @@ a,a:hover,a:active,a:focus{
     content: "";
     display: block;
     position: absolute;
-    top: 50px;
+    top: 40px;
     right: 0;
-    width: 10px;
+    width: 2px;
     height: 0;
     background-color: white;
     transition: height .3s ease-in;
@@ -126,9 +126,9 @@ a,a:hover,a:active,a:focus{
     content: "";
     display: block;
     position: absolute;
-    bottom: 50px;
+    bottom: 40px;
     left: 0;
-    width: 10px;
+    width: 2px;
     height: 0;
     background-color: white;
     transition: height .3s ease-in;
